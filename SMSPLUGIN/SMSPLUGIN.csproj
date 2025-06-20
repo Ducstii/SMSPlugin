@@ -2,9 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net48</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
     <Langversion>10</Langversion>
-    <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>

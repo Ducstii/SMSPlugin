@@ -104,6 +104,9 @@ namespace SMSPLUGIN
 
         private void OnPlayerLeft(LeftEventArgs ev)
         {
+            if (string.IsNullOrEmpty(ev.Player?.UserId))
+                return;
+
             if (_phoneNumbers.TryGetValue(ev.Player.UserId, out string phoneNumber))
             {
                 _phoneNumbers.Remove(ev.Player.UserId);

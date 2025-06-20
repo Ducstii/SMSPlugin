@@ -12,8 +12,14 @@ namespace SMSPLUGIN
         public override string Author => "Ducstii";
         public override Version Version => new Version(1, 0, 0);
 
+        // Explicit constructor to help with loading
+        public SMSPlugin()
+        {
+        }
+
         public override void OnEnabled()
         {
+            Log.Info("SMSPlugin is starting to load...");
             Instance = this;
             SMSManager = new SMSManager();
             SMSManager.Initialize();
