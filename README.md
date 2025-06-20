@@ -74,4 +74,8 @@ custom_blacklisted_words:
 
 1.  Build the project or download the latest release DLL.
 2.  Copy the compiled DLL to your EXILED plugins folder.
-3.  Restart your server. The plugin will automatically generate its configuration file. 
+3.  Restart your server. The plugin will automatically generate its configuration file.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details. 
