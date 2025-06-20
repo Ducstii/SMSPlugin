@@ -1,0 +1,27 @@
+# Visual Studio
+.vs/
+*.suo
+*.user
+*.sln.DotSettings.user
+
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# Rider & ReSharper
+.idea/
+_ReSharper.*/
+
+# NuGet packages
+*.nupkg
+
+# Generated files (if not in a package)
+*.dll
+*.exe
+*.pdb
+
+# Log files
+*.log
+
+# Runtime data - this should not be in source control
+sms_history.json 
